@@ -1,7 +1,7 @@
 // Copyright 2016 Noel Cower. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be found in the LICENSE.txt file.
 
-// regen is a tool to parse and generate random strings from regular expressions.
+// Package regen is a tool to parse and generate random strings from regular expressions.
 //
 //  go get go.spiff.io/regen
 //
