@@ -53,9 +53,9 @@ func RandSrc(randInt63n func(n int64) int64) func(*Options) {
 // GenString writes a response that should, ideally, be a match for rx to w, and proceeds to do the same for its
 // sub-expressions where applicable. Returns io.EOF if it encounters OpEndText. This may not be entirely correct
 // behavior for OpEndText handling. Otherwise, returns nil.
-func GenString(w *bytes.Buffer, rx *syntax.Regexp, Options ...Option) error {
+func GenString(w *bytes.Buffer, rx *syntax.Regexp, options ...Option) error {
 	opts := newOptions()
-	for _, applyOpt := range Options {
+	for _, applyOpt := range options {
 		applyOpt(&opts)
 	}
 	randInt63n := opts.randInt63n
