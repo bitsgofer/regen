@@ -1,6 +1,6 @@
 [![GoDoc](https://godoc.org/github.com/bitsgofer/regen?status.svg)](https://godoc.org/github.com/bitsgofer/regen)
 
-This is a fork of <https://github.com/bitsgofer/regen>.
+This is a fork of <https://github.com/nilium/regen>.
 
 There are some significant changes from the original code, however:
 
